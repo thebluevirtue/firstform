@@ -1,0 +1,71 @@
+body, :placeholder-shown, button,select,textarea {
+  font-family: poppins;
+  max-width: 500px;
+ margin: auto;
+
+  
+}
+
+form{
+  border-radius: 5px;
+  padding-bottom: 20px;
+  padding-top: 10px;
+  box-shadow: 1px 1px 10px  blue;
+  width: fit-content;
+  margin-bottom: 50px;
+  
+}
+
+input, select, textarea {
+  border-radius: 5px;
+  padding: 5px;
+}
+
+div{
+  margin:20px;
+}
+
+h1{
+  max-width: 440px;
+  text-align: center;
+}
+
+label{
+  display: block;
+}
+
+.gender label, .ethnicity label, .Occupation label{
+  display: inline;
+}
+
+.fullname input{
+  margin-right: 10px;
+}
+
+.bio textarea{
+  width: 363px;
+  border-width: 2px;
+}
+
+.Occupation select{
+  border-width: 2px;
+  width: 83px;
+  padding-left: 0px;
+}
+
+button{
+  border: none;
+  background-color: blue;
+  border-radius: 5px;
+  color: white;
+  width: 200px;
+  margin-left: 120px;
+  padding: 10px;
+  font-weight: 500;
+  cursor: pointer;
+  background-image: url('/images/iconmonstr-paper-plane-2-240.png');
+  background-size: 20px;
+  background-repeat: no-repeat;
+  background-position: 64px;
+  text-indent: 22px;
+}
